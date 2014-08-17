@@ -16,7 +16,4 @@ io.sockets.on('connection', function( socket ) {
   socket.on('message', function( data ) {
     console.log ('MESSAGE RECEIVED: '+data);
   });
-  setInterval (function () {
-    socket.emit ('message', 'from server');
-  },200);
 });
