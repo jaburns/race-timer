@@ -1,6 +1,6 @@
 'use strict';
 
-var SERVER = 'http://jaburns.net:1234';
+var SERVER = 'http://localhost:1337';
 
 if (process.argv.length < 3) {
   console.log ('Must supply argument: ls, start, or finish');
