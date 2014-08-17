@@ -1,0 +1,26 @@
+{
+  "name": "race-timer",
+  "version": "0.0.0",
+  "description": "Timing system for qualifications in the Highlevel Downhill longboard race.",
+  "author": {
+    "name": "Jeremy Burns",
+    "email": "j@jaburns.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaburns/race-timer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jaburns/race-timer/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jaburns/race-timer/blob/master/LICENSE"
+  },
+  "dependencies": {
+    "socket.io": "1.0.x",
+    "socket.io-client": "1.0.x",
+    "serialport": "1.4.x"
+  }
+}
+
